@@ -1,0 +1,47 @@
+@media  screen and ( max-width: 800px){
+
+    .body{
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+ 
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .app-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 250px;
+        height: 70px;
+        border: 0.1px solid #00C9DB;
+        overflow: hidden;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 0;
+
+
+        color: white;
+        background: transparent;
+        padding: 23px 40px;
+        border-radius: 32px;
+        font-weight: 580;
+        transition: 0.4s;
+    }
+
+.app-button img {
+  height: 24px;
+}
+
+
+
+
+}
