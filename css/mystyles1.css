@@ -178,7 +178,7 @@ body{
   z-index: 0;
 
 
-    color: white;
+    color: #00C9DB;
     background: transparent;
     padding: 23px 40px;
     border-radius: 32px;
@@ -211,6 +211,11 @@ body{
 .app-button:hover .overlay,
 .app-button:active .overlay {
   width: 100%;
+}
+
+.app-button:hover {
+  color: white;
+  border-color: transparent;
 }
 
 .div1 h1{
